@@ -1,0 +1,63 @@
+#itsOverNineThousand-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#itsOverNineThousand-content {
+    display: inline;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(150, 150, 150);
+    font-size: 20px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+#itsOverNineThousand-before {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(150, 150, 150);
+}
+
+#itsOverNineThousand-text {
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #itsOverNineThousand-container {
+        top: 0%;
+        left: 50%;
+        margin-top: -20px;
+        flex-direction: column-reverse;
+        transform: translate(-50%, -100%);
+        -webkit-transform: translate(-50%, -100%);
+        -moz-transform: translate(-50%, -100%);
+        -o-transform: translate(-50%, -100%);
+    }
+
+    #itsOverNineThousand-before {
+        transform: translateY(-50%) rotate(45deg);
+        -webkit-transform: translateY(-50%) rotate(45deg);
+        -moz-transform: translateY(-50%) rotate(45deg);
+        -o-transform: translateY(-50%) rotate(45deg);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #itsOverNineThousand-container {
+        margin-top: 20px;
+        top: 0%;
+        left: 100%;
+        flex-direction: row;
+    }
+
+    #itsOverNineThousand-before {
+        transform: translateX(50%) rotate(45deg);
+        -webkit-transform: translateX(50%) rotate(45deg);
+        -moz-transform: translateX(50%) rotate(45deg);
+        -o-transform: translateX(50%) rotate(45deg);
+    }
+}

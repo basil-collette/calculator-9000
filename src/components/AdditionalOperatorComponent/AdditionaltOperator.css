@@ -1,0 +1,19 @@
+.additionaloperator-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.additionaloperator-container > * + * {
+    margin-left: 3px;
+}
+
+.addoperator-button {
+    width: 100%;
+    background-color: rgb(224, 201, 32);
+    border-color: rgb(255, 217, 67) rgb(209, 169, 12) rgb(209, 169, 12) rgb(255, 217, 67); /*top right bottom left;*/
+}
+
+.addoperator-button:hover {
+    background-color: rgb(198, 180, 52);
+}

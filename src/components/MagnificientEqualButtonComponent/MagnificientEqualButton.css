@@ -1,0 +1,19 @@
+
+.equals {
+    width: 100%;
+    background-color: rgb(224, 61, 32);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(255, 79, 49) rgb(200, 46, 19) rgb(200, 46, 19) rgb(255, 79, 49); /*top right bottom left;*/
+}
+
+.equals:hover {
+    background-color: rgb(198, 49, 23);
+}

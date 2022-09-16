@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\AdditionalOperatorComponent",
+    "\\src\\components\\AmazingNumberButtonComponent",
+    "\\src\\components\\BeautifulScreenComponent",
+    "\\src\\components\\MagnificientEqualButtonComponent",
+    "\\src\\components\\TheTitleComponent",
+    "\\src\\Metier",
+    "\\src\\Metier\\Button"
+  ],
+  "SelectedNode": "\\src\\components\\SaveComponent\\Save.js",
+  "PreviewInSolutionExplorer": false
+}

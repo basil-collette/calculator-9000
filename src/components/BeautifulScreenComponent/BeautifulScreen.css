@@ -1,0 +1,31 @@
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.beautifulscreen-container {
+    background-color: rgb(36, 47, 57);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+.beautifulscreen-calcul {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(221, 221, 221);
+}
+
+.beautifulscreen-result {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 30px;
+}

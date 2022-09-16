@@ -1,0 +1,21 @@
+.digits {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.digitLine {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.digits > * + * {
+    margin-top: 3px;
+}
+
+.digitLine > * + * {
+    margin-left: 3px;
+}
